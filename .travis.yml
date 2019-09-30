@@ -3,7 +3,7 @@ node_js:
   - "8"
 script:
   - set -e
-  - npm run build
+  - echo build sources
 deploy:
   provider: script
   script: ./bin/deploy.sh
